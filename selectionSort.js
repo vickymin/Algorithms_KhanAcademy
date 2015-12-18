@@ -1,3 +1,11 @@
+/******************************* Selection Sort Pseudocode *****************************
+ * 1. Find the smallest card. Swap it with the first card.
+ * 2. Find the second-smallest card. Swap it with the second card.
+ * 3. Find the third-smallest card. Swap it with the third card.
+ * 4. Repeat finding the next-smallest card, and swapping it into the correct position
+ *    until the array is sorted.
+****************************************************************************************/
+
 //swap two items in an array
 var swap = function(array, firstIndex, secondIndex){
   var temp = array[firstIndex];

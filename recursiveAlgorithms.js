@@ -33,11 +33,11 @@ var middleCharacters = function(str) {
 };
 //isPalindrome
 var isPalindrome = function(str) {
-  // base case #1
+  // base cases#1
   if(str.length <= 1){
     return true;
   }
-  // base case #2
+  // base case#2
   if(firstCharacter(str) !== lastCharacter(str)){
     return false;
   }

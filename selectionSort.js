@@ -1,4 +1,4 @@
-/******************************* Selection Sort Pseudocode *****************************
+/******************************* Selection Sort Pseudocode ******************************
  * 1. Find the smallest card. Swap it with the first card.
  * 2. Find the second-smallest card. Swap it with the second card.
  * 3. Find the third-smallest card. Swap it with the third card.

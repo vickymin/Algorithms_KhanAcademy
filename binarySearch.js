@@ -1,4 +1,4 @@
-/******************************** Binary Search Pseudocode ********************************
+/******************************** Binary Search Pseudocode *********************************
  * 1. Let min = 0 and max = n-1.
  * 2. Compute guess as the average of max and min, rounded down (so that it is an integer).
  * 3. If array[guess] equals target, then stop. You found it! Return guess.

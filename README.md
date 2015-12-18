@@ -2,5 +2,8 @@
 
 - Binary Search
 - Selection Sort
+- Insertion Sort
+- Recursive Algorithms
+- Towers of Hanoi
 
 to be updated...

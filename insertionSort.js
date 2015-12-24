@@ -13,11 +13,11 @@
 //Insert value before an index
 //the elements from array[0] to array[rightIndex] are sorted in ascending order
 var insert = function(array, rightIndex, value){
-    var i;
-    for(i = rightIndex; i >= 0 && array[i] > value; i--){
-        array[i + 1] = array[i];
-    }
-    array[i + 1] = value;
+  var i;
+  for(i = rightIndex; i >= 0 && array[i] > value; i--){
+    array[i + 1] = array[i];
+  }
+  array[i + 1] = value;
 };
 
 //Insertion Sort

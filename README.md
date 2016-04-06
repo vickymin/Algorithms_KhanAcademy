@@ -7,5 +7,7 @@
 - Towers of Hanoi
 - Merge Sort
 - Quick Sort
+- 
+- Breadth-first search
 
 to be updated...

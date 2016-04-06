@@ -36,13 +36,16 @@ var merge = function(array, p, q, r) {
   // Once one of lowHalf and highHalf has been fully copied
   //  back into array, copy the remaining elements from the
   //  other temporary array back into the array
-  while(i<lowHalf.length){
+  while (i < lowHalf.length) {
     array[k] = lowHalf[i];
-    k++;i++;
+    k++;
+    i++;
   }
-  while(j<highHalf.length){
+
+  while (j < highHalf.length) {
     array[k] = highHalf[j];
-    k++;j++;
+    k++;
+    j++;
   }
   return array;
 };
